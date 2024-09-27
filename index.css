@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-cont {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading1 {
+    color: red;
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+}
+
+.intlist {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mybtn {
+    margin: 20px;
+}
+
+.todo-cont {
+    width: 78%;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.heading2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.list-cont {
+    width: 78%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.list-cont-todo {
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.label-cont {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 5px solid red;
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.delete-btn:focus {
+    border: none;
+    outline: none;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.btn-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
